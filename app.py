@@ -9,7 +9,8 @@ def main():
     st.title('Mobile Price Classification')
     html_temp = """
     <div style="background:#025246 ;padding:10px">
-    <h2 style="color:white;text-align:center;">Mobile Price Classification App </h2>
+    <h2 style="color:white;text-align:center;">Mobile Price Classification App</h2>
+    <h4 style="color:white;text-align:center;">Developer: Tushar Siddik</h4>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html = True)
