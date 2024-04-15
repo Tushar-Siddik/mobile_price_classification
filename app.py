@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 def main():
     # st.title('Mobile Price Classification')
-    st.header('Mobile Price Classification')
+    # st.header('Mobile Price Classification')
     html_temp = """
     <div style="background:#025246 ;padding:10px">
     <h2 style="color:white;text-align:center;">Mobile Price Classification App</h2>
