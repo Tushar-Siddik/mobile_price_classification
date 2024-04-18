@@ -37,7 +37,7 @@ def main():
     touch_screen = st.selectbox("Touch Screen", ['0', '1'])
     wifi = st.selectbox("Wifi", ['0', '1'])
     
-    with open ('models/model_svc_grid.pkl', 'rb') as f:
+    with open ('models/model_lr_grid.pkl', 'rb') as f:
         model = joblib.load(f)
     
     if st.button("Predict"):
