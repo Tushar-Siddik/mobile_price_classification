@@ -11,7 +11,7 @@ def main():
     html_temp = """
     <div style="background:#025246 ;padding:10px">
     <h2 style="color:white;text-align:center;">Mobile Price Classification App</h2>
-    <h4 style="color:white;text-align:center;">Developer: Tushar Siddik</h4>
+    <h4 style="color:white;text-align:center;">Developer: <a href="https://www.linkedin.com/in/tushar-siddik">Md. Siddiqur Rahman</a></h4>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html = True)
